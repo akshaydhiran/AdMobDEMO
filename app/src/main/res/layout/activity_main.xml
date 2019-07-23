@@ -12,12 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="AD MOB "
-        android:textSize="30dp"
+        android:textSize="50dp"
         android:textColor="#000"
         android:textAlignment="center"/>
 
     <com.google.android.gms.ads.AdView
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="50dp"
         android:layout_marginStart="60dp"
         xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/adView"
@@ -29,7 +29,27 @@
         ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
     </com.google.android.gms.ads.AdView>
 
+    <Button
+        android:id="@+id/interstitialbutton"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:background="#E53935"
+        android:text="INTERSTITIAL ADS"/>
 
 
+    <Button
+        android:id="@+id/rewardedbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REWARDED ADS"
+        android:textSize="25sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:background="#fff6"/>
 
 </LinearLayout>
